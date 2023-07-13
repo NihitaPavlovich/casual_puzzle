@@ -25,7 +25,7 @@ public class Activator : MonoBehaviour
                 second.GetComponent<Collider>().isTrigger = true;
             }
             GetComponent<Renderer>().material = transparent;
-            button.GetComponent<Renderer>().material = normal;
+            button.GetComponent<Renderer>().material = normal; 
         }
     }
 }
